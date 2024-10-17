@@ -1,0 +1,111 @@
+/* Required height of parents of the Full Page Intro and Intro itself */
+html,
+body,
+.view {
+  height: 100%;
+background-color: #181C30;
+}
+.jarallax {
+          height: 100%;
+        }
+
+/* Navbar animation */
+.navbar {
+  background-color: rgba(0, 0, 0, 0.2); }
+
+.navbar-nav{
+  font-family: 'Raleway', sans-serif;
+}
+
+.navbar-brand{
+  font-family: 'Raleway-bold', sans-serif;
+}
+
+h2 {
+  font-family: 'Raleway', sans-serif;
+}
+h5{
+  font-family: 'Raleway-bold', sans-serif;
+}
+
+
+
+.top-nav-collapse {
+  background-color: #1C2331; }
+
+/* Adding color to the Navbar on mobile */
+@media only screen and (max-width: 768px) {
+  .navbar {
+    background-color: #1C2331; } }
+
+/* Footer color for sake of consistency with Navbar */
+.page-footer {
+  background-color: #1C2331; }
+
+.blockquote {
+  border-left: 5px solid #aa66cc;
+}
+.md-pills .nav-link.active {
+  color: #fff;
+  background-color: #616161;
+}
+button.close {
+  position: absolute;
+  right: 0;
+  z-index: 2;
+  padding-right: 1rem;
+  padding-top: .6rem;
+}
+.border-top {
+  border-top: 5px solid #aa66cc !important;
+  border-top-left-radius: .25rem!important;
+  border-top-right-radius: .25rem!important;
+}
+
+.card {
+  background-color: #1C2331;
+
+}
+.card-img-top {
+  height: 200px;
+  object-fit: cover;
+}
+
+.btn{
+  font-family: 'Raleway', sans-serif;
+}
+
+#about p {
+  font-family: 'Raleway', sans-serif;
+  font-size: 17px;
+
+}
+#skills{
+  font-family: 'Raleway', sans-serif;
+}
+#projects{
+  font-family: 'Raleway', sans-serif;
+}
+#contact{
+  font-family: 'Raleway', sans-serif;
+}
+
+
+
+#name {
+  background-color:#1C2331;
+}
+#email {
+  background-color:#1C2331;
+}
+#subject {
+  background-color:#1C2331;
+}
+#message {
+  background-color:#1C2331;
+}
+@media screen and (min-width: 900px) {
+  .card {
+height:16%;
+  }
+}
